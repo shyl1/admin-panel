@@ -1,4 +1,6 @@
+@use "mixins" as *;
 @import './variables.scss';
+
 
 * {
   margin: 0;
