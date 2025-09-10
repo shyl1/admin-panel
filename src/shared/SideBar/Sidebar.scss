@@ -1,0 +1,40 @@
+@import '../../styles/variables.scss';
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+
+    .sidebar-section{
+        display: flex;
+        flex-direction: column;
+
+        h3{
+            font-weight: 200;
+            margin-bottom: 10px;
+            font-size: 12px;
+            color: $soft-color;
+        }
+
+        .tabs {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+
+            
+
+            .tab{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                padding: 10px;
+                border-radius: 5px;
+
+
+                &:hover{
+                    background-color: $soft-bg;
+                }
+            }
+        }
+    }
+}
